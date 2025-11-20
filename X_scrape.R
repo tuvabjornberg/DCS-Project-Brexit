@@ -30,3 +30,8 @@ remDr$navigate("https://www.x.com/")
 #remDr$refresh()
 #remDr$getCurrentUrl()
 #remDr$getTitle()
+
+# closing 
+remDr$closeall()
+rm(remDr)
+gc()
